@@ -1,0 +1,44 @@
+1. Inicio
+
+// Declaro variables
+
+2. dias, i[0,n]
+3. precioHabitacion, d[0,n]
+4. totalPagar, d[0,n]
+5. subTotalPagar, d[0,n]
+
+// Pido datos por teclado  
+
+6. << "Ingrese el número de días de hospedaje"
+7. >> dias
+8. << "Ingrese el precio diario de la habitación"
+9. >> precioHabitacion
+
+// Proceso
+
+10. subtotalPagar <-- dias * precioHabitacion
+11. Si dias > 15 entonces
+12.    totalpagar <-- subtotalPagar * 0.80
+13.    << "El subtotal a pagar es:"+ subTotalPagar
+14.    << "Su  descuento es de: 20%"
+15.    << "El total a pagar es: "+ totalPagar 
+16. De lo contrario
+17.  Si dias > 10 and dias < 15 entonces
+18.     totalPagar <-- subtotalPagar * 0.85
+19.     << "El subtotal a pagar es:"+ subTotalPagar
+20.     << "Su  descuento es de: 15%"
+21.     << "El total a pagar es: "+ totalPagar
+22.  De lo contrario
+23.    Si dias > 5 and dias < 10 entonces
+24.       totalpagar <-- subtotalPagar * 0.90
+25.       << "El subtotal a pagar es:"+ subTotalPagar
+26.       << "Su  descuento es de: 10%"
+27.       << "El total a pagar es: "+ totalPagar
+28.   De lo contrario
+29.    << "El valor a pagar es "+ subTotalPagar
+28.    Fin Si
+29.  Fin Si
+30. Fin si
+31. Fin.
+
+

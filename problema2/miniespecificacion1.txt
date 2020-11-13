@@ -1,0 +1,27 @@
+1. Inicio
+
+//Declaro variables
+
+2. cantidad, i[0,n]
+3. precioUnitario, d[0,n]
+4. precioTotal, d[0,n]
+5. descuento <-- 0.85
+
+//Pido datos por teclado
+
+6. << "Ingrese la cantidad del producto"
+7. >> cantidad
+8. << "Ingrese el valor del precio unitario del producto"
+9. >> precioUnitario
+
+// Proceso
+
+10. precioTotal <-- cantidad*precioUnitario
+11. Si cantidad > 50 entonces
+12.    precioTotal <-- precioTotal*descuento
+13. Fin
+
+// Salida 
+
+14. << "El costo del pedido es: "+ precioTotal
+15 Fin

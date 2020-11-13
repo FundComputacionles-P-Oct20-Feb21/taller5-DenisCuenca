@@ -1,0 +1,36 @@
+1. Inicio
+
+// Declaro variables
+
+2. costoKilovatio, d[0,n]
+3. kilovatiosMes, d[0,n]
+4. kilovatiosHora, d[0,n]
+5. totalPagar, d[0,n]
+6. edad, i[0,n]
+7. descuento <-- 0.90
+
+
+//Pido datos por teclado:
+
+8. << "Ingresar el valor de costo de kilovatio por hora"
+9. >> costokilovatio
+10. << "Ingresar el número de kilovatios consumidos por mes"
+11. >> kilovatiosMes
+12. <<"Ingrese su edad"
+13. >> edad 
+
+//Proceso:
+
+12. kilovatiosHora <-- kilovatiosMes / 720
+13. totalPagar <-- kilovatiosHora * costoKilovatio
+14. Si edad > 65 entonces
+15.    totalPagar <-- totalPagar * descuento
+16. Fin Si
+
+// Salidas
+
+17. << "El valor total a pagar es: "+ totalPagar  
+18. Fin  
+
+
+ 
