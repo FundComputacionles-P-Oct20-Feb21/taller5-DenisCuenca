@@ -21,16 +21,16 @@
 
 //Proceso:
 
-12. kilovatiosHora <-- kilovatiosMes / 720
-13. totalPagar <-- kilovatiosHora * costoKilovatio
-14. Si edad > 65 entonces
-15.    totalPagar <-- totalPagar * descuento
-16. Fin Si
+14. kilovatiosHora <-- kilovatiosMes / 720
+15. totalPagar <-- kilovatiosHora * costoKilovatio
+16. Si edad > 65 entonces
+17.    totalPagar <-- totalPagar * descuento
+18. Fin Si
 
 // Salidas
 
-17. << "El valor total a pagar es: "+ totalPagar  
-18. Fin  
+19. << "El valor total a pagar es: "+ totalPagar  
+20. Fin  
 
 
  
